@@ -17,6 +17,9 @@
     "benchmark": "^2.1.0",
     "microtime": "^2.0.0"
   },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/kitakitabauer/node-bench-cases.git"
