@@ -1,7 +1,6 @@
 # node-bench-cases
 ====
-
-Overview
+benchmark sample cases for Node.js
 
 ### Installing
 Install with github using the following command
