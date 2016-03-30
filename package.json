@@ -1,0 +1,29 @@
+{
+  "name": "node-bench-cases",
+  "version": "0.0.1",
+  "description": "benchmark sample cases For Node.js",
+  "main": "sample.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "benchmark",
+    "performance",
+    "speed",
+    "node"
+  ],
+  "dependencies": {
+    "lodash": "^4.6.1",
+    "benchmark": "^2.1.0",
+    "microtime": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kitakitabauer/node-bench-cases.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kitakitabauer/node-bench-cases/issues"
+  },
+  "author": "Yuki Kitahara",
+  "license": "MIT"
+}
