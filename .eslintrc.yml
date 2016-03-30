@@ -1,0 +1,10 @@
+extends: airbnb
+parserOptions:
+  sourceType: script
+rules:
+  comma-dangle: 0
+  func-names: 0
+  no-console: 0
+  object-curly-spacing: 0
+  space-before-function-paren: 0
+  strict: [2, 'global']

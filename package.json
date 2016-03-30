@@ -4,7 +4,8 @@
   "description": "benchmark sample cases For Node.js",
   "main": "suite.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint *.js"
   },
   "keywords": [
     "benchmark",
@@ -17,6 +18,11 @@
     "benchmark": "^2.1.0",
     "microtime": "^2.0.0"
   },
+  "devDependencies": {
+    "eslint": "^2.5.3",
+    "eslint-config-airbnb": "^6.2.0",
+    "eslint-plugin-react": "^4.2.3"
+  },
   "engines": {
     "node": ">=4.0.0"
   },
@@ -26,9 +32,6 @@
   },
   "bugs": {
     "url": "https://github.com/kitakitabauer/node-bench-cases/issues"
-  },
-  "scripts": {
-    "bench": "node suite.js"
   },
   "author": "Yuki Kitahara",
   "license": "MIT"

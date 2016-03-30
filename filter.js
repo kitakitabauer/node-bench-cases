@@ -1,9 +1,10 @@
-'use strict'
+'use strict';
+
 const _ = require('lodash');
 
 const suite = require('./suite');
 
-let users = [
+const users = [
   {name: 'a', age: 10},
   {name: 'b', age: 20},
   {name: 'c', age: 30},
@@ -14,13 +15,13 @@ let users = [
 suite.run([
   {
     description: 'Array#filter',
-    exec: function() {
-      users.filter(user => user.age %2);
+    exec() {
+      users.filter(user => user.age % 2);
     }
   },
   {
     description: 'lodash#filter',
-    exec: function() {
+    exec() {
       _.filter(users, user => user.age % 2);
     }
   }
