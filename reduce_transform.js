@@ -1,5 +1,4 @@
 'use strict';
-/* eslint no-param-reassign: [2, { "props": false } ] */
 
 const _ = require('lodash');
 
