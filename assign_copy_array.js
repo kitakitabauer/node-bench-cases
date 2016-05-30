@@ -4,25 +4,23 @@ const _ = require('lodash');
 
 const suite = require('./suite');
 
-class Person {
-  constructor(name, age, gender) {
-    Object.assign(this, {name, age, gender});
-  }
-}
-
-const person = new Person('Person', 20, '男性');
+const users = [
+  {name: 'a', age: 10, gender: 'female'},
+  {name: 'b', age: 20, gender: 'male'},
+  {name: 'c', age: 30, gender: 'female'},
+];
 
 suite.run([
   {
     description: 'Object#assign',
     exec() {
-      Object.assign({}, person);
+      Object.assign([], users);
     }
   },
   {
     description: 'lodash#clone',
     exec() {
-      _.clone(person);
+      _.clone(users);
     }
   }
 ]);
